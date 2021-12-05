@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>add new video</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="pages/gospelsongs.html">Gospel Songs</a>
+      <a href="pages/computersetup.html">Computer Setup</a>
+      <a href="pages/dogs.html">Dogs</a>
+      <a href="form.html">New Video</a>
+    </nav>
+
+    <form action="index.html" method="post">
+      <h2>uplod new video</h2>
+
+      <label for="title">Video Title*</label><br>
+      <input id="title" type="text" name="title" required><br><br>
+
+      <label for="description">Discription</label><br>
+      <textarea id="description"  name="description" rows="4" cols="30"></textarea><br><br>
+
+      <label for="videofile">Video*</label><br>
+      <input id="videofile" type="file" name="video upload" multiple required><br><br>
+
+      <input id="Public" type="radio" name="scope" >
+      <label for="public">Public</label>
+      <input id="private" type="radio" name="scope" >
+      <label for="private">Private</label><br><br>
+
+      <button type="submit" name="button">Upload Video</button>
+    </form>
+    <br><br>
+
+    <footer>
+      <div>
+        Copyrigth
+      </div>
+    </footer>
+  </body>
+</html>
